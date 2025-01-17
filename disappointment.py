@@ -1,1 +1,1 @@
-"""He never came back"""
+"""I wish my father left *belt whipping sounds*"""
