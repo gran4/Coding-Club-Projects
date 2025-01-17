@@ -1,0 +1,16 @@
+
+header files:
+declare the functions
+
+gcc -shared -o libexample.so -fPIC example.c
+
+gcc is the compiler
+-shared      means that it is a library, not an executable
+    can be used by multiple things at the same time
+-o libexample.so       sets the file output name
+-fPIC         "Position Independent Code".
+        It tells the compiler to generate code that can be loaded at any memory address.
+        This is required for shared libraries because they can be loaded at different addresses in different processes.
+example.c       C file you are generating
+
+
